@@ -1,0 +1,29 @@
+--language-mode 6
+
+# ident
+--indent 4
+--ifdef no-indent
+
+# spaceAroundOperators
+--ranges no-space
+
+# wrap
+--max-width 120
+
+# Optional Rules
+--enable emptyExtensions
+--enable forWhere
+--enable ifExpressions
+--enable isEmpty
+--enable preferContains
+--enable preferCountWhere
+--enable preferFirstWhere
+--enable preferFlatMap
+--enable preferMinOverSorted
+--enable preferStructSwiftTestingSuites
+--enable preferSwiftStringAPI
+--enable preferSwiftTesting
+--enable testSuiteAccessControl
+--enable urlMacro
+--enable validateTestCases
+--enable wrapMultilineFunctionChains
